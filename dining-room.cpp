@@ -8,7 +8,43 @@ GLfloat Col[] = {0,1,0,1};
 
 
 void DrawTable() {
-    
+
+    // Floor
+    glPushMatrix();
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, Colors::WHITE.rgba);
+    glTranslatef(0,-3,0);
+    glScalef(10,thickness,10);
+    glutSolidCube(length);
+    glPopMatrix();
+
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, Colors::RED.rgba);
+    // walls
+
+    glPushMatrix();
+    glTranslatef(0,7,-10);
+    glScalef(10,10,thickness);
+    glutSolidCube(length);
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-10,7,0);
+    glScalef(thickness,10,10);
+    glutSolidCube(length);
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(10,7,0);
+    glScalef(thickness,10,10);
+    glutSolidCube(length);
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0,7,10);
+    glScalef(10,10,thickness);
+    glutSolidCube(length);
+    glPopMatrix();
+
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, Colors::GREEN.rgba);
     // Table top
     glPushMatrix();
     glScalef(2.0,thickness,1.5);
@@ -160,7 +196,7 @@ void render() {
     gluPerspective(45.0,1.0,1.0,64.0);
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
-    gluLookAt(0,4,12,0,0,0,0,1,0);
+    gluLookAt(10,3,10,0,0,0,0,1,0);
     glutDisplayFunc(DrawTable);
 
     
