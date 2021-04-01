@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment2">
+				<Option output="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/Assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jay/Desktop/IS F311/Assignment2/Assignment2"/>
+					<Add directory="/home/jay/Desktop/IS F311/Assignment2/GLM_INCLUDE_DIR"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment2/fast">
+				<Option output="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/Assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jay/Desktop/IS F311/Assignment2/Assignment2"/>
+					<Add directory="/home/jay/Desktop/IS F311/Assignment2/GLM_INCLUDE_DIR"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jay/Desktop/IS\ F311/Assignment2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jay/Desktop/IS F311/Assignment2/Camera.cpp">
+			<Option target="Assignment2"/>
+		</Unit>
+		<Unit filename="/home/jay/Desktop/IS F311/Assignment2/Camera.h">
+			<Option target="Assignment2"/>
+		</Unit>
+		<Unit filename="/home/jay/Desktop/IS F311/Assignment2/Color.h">
+			<Option target="Assignment2"/>
+		</Unit>
+		<Unit filename="/home/jay/Desktop/IS F311/Assignment2/dining-room.cpp">
+			<Option target="Assignment2"/>
+		</Unit>
+		<Unit filename="/home/jay/Desktop/IS F311/Assignment2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jay/Desktop/IS F311/Assignment2/cmake/FindGLM.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

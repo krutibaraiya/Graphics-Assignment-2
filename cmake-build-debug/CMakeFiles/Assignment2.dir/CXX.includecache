@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jay/Desktop/IS F311/Assignment2/Camera.h
+GL/glew.h
+-
+GL/freeglut.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+glm/glm.hpp
+-
+iostream
+-
+Color.h
+/home/jay/Desktop/IS F311/Assignment2/Color.h
+glm/gtc/constants.hpp
+-
+
+/home/jay/Desktop/IS F311/Assignment2/Color.h
+
+/home/jay/Desktop/IS F311/Assignment2/dining-room.cpp
+GL/glew.h
+-
+GL/freeglut.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+glm/glm.hpp
+-
+iostream
+-
+Color.h
+/home/jay/Desktop/IS F311/Assignment2/Color.h
+Camera.h
+/home/jay/Desktop/IS F311/Assignment2/Camera.h
+
