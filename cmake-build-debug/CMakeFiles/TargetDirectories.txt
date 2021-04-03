@@ -1,3 +1,0 @@
-/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles/Assignment2.dir
