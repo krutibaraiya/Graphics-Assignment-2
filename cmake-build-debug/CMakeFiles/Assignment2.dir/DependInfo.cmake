@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jay/Desktop/IS F311/Assignment2/Camera.cpp" "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/CMakeFiles/Assignment2.dir/Camera.cpp.o"
-  "/home/jay/Desktop/IS F311/Assignment2/dining-room.cpp" "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/CMakeFiles/Assignment2.dir/dining-room.cpp.o"
+  "/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Camera.cpp" "/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles/Assignment2.dir/Camera.cpp.o"
+  "/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Parser.cpp" "/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles/Assignment2.dir/Parser.cpp.o"
+  "/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/dining-room.cpp" "/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles/Assignment2.dir/dining-room.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/jay/Desktop/IS F311/Assignment2/Assignment2" -I"/home/jay/Desktop/IS F311/Assignment2/GLM_INCLUDE_DIR" 
+CXX_INCLUDES = -I/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Assignment2 -I/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/GLM_INCLUDE_DIR 
 

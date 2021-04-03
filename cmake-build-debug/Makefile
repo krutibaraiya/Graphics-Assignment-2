@@ -68,10 +68,10 @@ RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jay/Desktop/IS F311/Assignment2"
+CMAKE_SOURCE_DIR = /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/CMakeFiles" "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -170,6 +170,33 @@ Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Camera.cpp.s
 .PHONY : Camera.cpp.s
 
+Parser.o: Parser.cpp.o
+
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
 dining-room.o: dining-room.cpp.o
 
 .PHONY : dining-room.o
@@ -209,6 +236,9 @@ help:
 	@echo "... Camera.o"
 	@echo "... Camera.i"
 	@echo "... Camera.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
 	@echo "... dining-room.o"
 	@echo "... dining-room.i"
 	@echo "... dining-room.s"

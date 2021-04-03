@@ -63,10 +63,10 @@ RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jay/Desktop/IS F311/Assignment2"
+CMAKE_SOURCE_DIR = /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Assignment2.dir/depend.make
@@ -79,40 +79,55 @@ include CMakeFiles/Assignment2.dir/flags.make
 
 CMakeFiles/Assignment2.dir/dining-room.cpp.o: CMakeFiles/Assignment2.dir/flags.make
 CMakeFiles/Assignment2.dir/dining-room.cpp.o: ../dining-room.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment2.dir/dining-room.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment2.dir/dining-room.cpp.o -c "/home/jay/Desktop/IS F311/Assignment2/dining-room.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment2.dir/dining-room.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment2.dir/dining-room.cpp.o -c /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/dining-room.cpp
 
 CMakeFiles/Assignment2.dir/dining-room.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment2.dir/dining-room.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jay/Desktop/IS F311/Assignment2/dining-room.cpp" > CMakeFiles/Assignment2.dir/dining-room.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/dining-room.cpp > CMakeFiles/Assignment2.dir/dining-room.cpp.i
 
 CMakeFiles/Assignment2.dir/dining-room.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment2.dir/dining-room.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jay/Desktop/IS F311/Assignment2/dining-room.cpp" -o CMakeFiles/Assignment2.dir/dining-room.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/dining-room.cpp -o CMakeFiles/Assignment2.dir/dining-room.cpp.s
 
 CMakeFiles/Assignment2.dir/Camera.cpp.o: CMakeFiles/Assignment2.dir/flags.make
 CMakeFiles/Assignment2.dir/Camera.cpp.o: ../Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment2.dir/Camera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment2.dir/Camera.cpp.o -c "/home/jay/Desktop/IS F311/Assignment2/Camera.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment2.dir/Camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment2.dir/Camera.cpp.o -c /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Camera.cpp
 
 CMakeFiles/Assignment2.dir/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment2.dir/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jay/Desktop/IS F311/Assignment2/Camera.cpp" > CMakeFiles/Assignment2.dir/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Camera.cpp > CMakeFiles/Assignment2.dir/Camera.cpp.i
 
 CMakeFiles/Assignment2.dir/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment2.dir/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jay/Desktop/IS F311/Assignment2/Camera.cpp" -o CMakeFiles/Assignment2.dir/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Camera.cpp -o CMakeFiles/Assignment2.dir/Camera.cpp.s
+
+CMakeFiles/Assignment2.dir/Parser.cpp.o: CMakeFiles/Assignment2.dir/flags.make
+CMakeFiles/Assignment2.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Assignment2.dir/Parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment2.dir/Parser.cpp.o -c /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Parser.cpp
+
+CMakeFiles/Assignment2.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment2.dir/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Parser.cpp > CMakeFiles/Assignment2.dir/Parser.cpp.i
+
+CMakeFiles/Assignment2.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment2.dir/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Parser.cpp -o CMakeFiles/Assignment2.dir/Parser.cpp.s
 
 # Object files for target Assignment2
 Assignment2_OBJECTS = \
 "CMakeFiles/Assignment2.dir/dining-room.cpp.o" \
-"CMakeFiles/Assignment2.dir/Camera.cpp.o"
+"CMakeFiles/Assignment2.dir/Camera.cpp.o" \
+"CMakeFiles/Assignment2.dir/Parser.cpp.o"
 
 # External object files for target Assignment2
 Assignment2_EXTERNAL_OBJECTS =
 
 Assignment2: CMakeFiles/Assignment2.dir/dining-room.cpp.o
 Assignment2: CMakeFiles/Assignment2.dir/Camera.cpp.o
+Assignment2: CMakeFiles/Assignment2.dir/Parser.cpp.o
 Assignment2: CMakeFiles/Assignment2.dir/build.make
 Assignment2: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 Assignment2: /usr/lib/x86_64-linux-gnu/libGLU.so
@@ -120,9 +135,10 @@ Assignment2: /usr/lib/x86_64-linux-gnu/libglut.so
 Assignment2: /usr/lib/x86_64-linux-gnu/libGLEW.so
 Assignment2: /usr/lib/x86_64-linux-gnu/libGLX.so
 Assignment2: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+Assignment2: /usr/lib/x86_64-linux-gnu/libXmu.so
 Assignment2: /usr/lib/x86_64-linux-gnu/libXi.so
 Assignment2: CMakeFiles/Assignment2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Assignment2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Assignment2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Assignment2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +151,6 @@ CMakeFiles/Assignment2.dir/clean:
 .PHONY : CMakeFiles/Assignment2.dir/clean
 
 CMakeFiles/Assignment2.dir/depend:
-	cd "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/jay/Desktop/IS F311/Assignment2" "/home/jay/Desktop/IS F311/Assignment2" "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug" "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug" "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/CMakeFiles/Assignment2.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2 /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2 /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/CMakeFiles/Assignment2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Assignment2.dir/depend
 

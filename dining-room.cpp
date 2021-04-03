@@ -5,7 +5,7 @@
 #include <glm/glm.hpp>
 #include "Color.h"
 #include "Camera.h"
-
+#include "Parser.h"
 
 
 GLfloat length = 2, thickness = 0.05;
@@ -15,6 +15,11 @@ Camera camera ({10, 10, 10}, {0, 0, 0});
 GLboolean isDragging = false;
 GLint dragX, dragY;
 
+<<<<<<< Updated upstream
+=======
+Model *Cup;
+
+>>>>>>> Stashed changes
 
 void DrawRoom() {
     // Floor
@@ -53,11 +58,23 @@ void DrawRoom() {
     glPopMatrix();
 
     // teapot
+//    glPushMatrix();
+//    glTranslatef(0.5,0.4,0);
+//    glScalef(0.5,0.5,0.5);
+//    glutSolidTeapot(1);
+//    glPopMatrix();
+
+    //cup
     glPushMatrix();
-    glTranslatef(0,0.4,0);
+    glTranslatef(0.5,0.4,0);
     glScalef(0.5,0.5,0.5);
-    glutSolidTeapot(1);
+    Cup->draw();
     glPopMatrix();
+
+
+
+
+
 
     glLightfv(GL_LIGHT0, GL_DIFFUSE, Colors::BLUE.rgba);
     glPushMatrix();
@@ -249,6 +266,11 @@ void DrawRoom() {
     glutSolidCube(1);
     glPopMatrix();
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
     glutSwapBuffers();
 }
 
@@ -341,7 +363,32 @@ void render() {
     DrawRoom();
 
 
+<<<<<<< Updated upstream
 
+=======
+    //glutSwapBuffers();
+
+}
+
+void light()
+{
+    GLfloat mat_specular[] = {0.1, 0.2, 0.1, 1.0};
+    GLfloat mat_emission[] = {0.1, 0.2, 0.1, 1.0};
+    GLfloat light_position[] = {1000.0, 1000.0, 10.0, 1.0};
+    GLfloat light_ambient[] = {0.8, 0.8, 0.8, 1.0};
+    GLfloat light_diffuse[] = {0.1, 0.1, 0.1, 1.0};
+    GLfloat light_specular[] = {0.001, 0.001, 0.001, 1.0};
+    glColorMaterial(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE);
+    glEnable(GL_COLOR_MATERIAL);
+    glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
+    glMaterialfv(GL_FRONT, GL_EMISSION, mat_emission);
+    glLightfv(GL_LIGHT0, GL_POSITION, light_position);
+    glLightfv(GL_LIGHT0, GL_AMBIENT, light_ambient);
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, light_diffuse);
+    glLightfv(GL_LIGHT0, GL_SPECULAR, light_specular);
+    glEnable(GL_LIGHTING);
+    glEnable(GL_LIGHT0);
+>>>>>>> Stashed changes
 }
 
 int main(int argc, char **argv) {
@@ -351,18 +398,28 @@ int main(int argc, char **argv) {
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
     glutCreateWindow("Dining Room");
 
+    Cup = new Model("fv.obj", "fv.mtl");
     glEnable(GL_DEPTH_TEST);
     glLightfv(GL_LIGHT0,GL_POSITION, Pos);
-    glLightfv(GL_LIGHT0, GL_DIFFUSE, Colors::GREEN.rgba);
+    //glLightfv(GL_LIGHT0, GL_DIFFUSE, Colors::GREEN.rgba);
     glEnable(GL_LIGHTING);
     glEnable(GL_LIGHT0);
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
     glutDisplayFunc(render);
     glutKeyboardFunc(keyboard);
     glutSpecialFunc(special);
     glutMouseFunc(mouseButton);
     glutMotionFunc(mouseMotion);
 
+<<<<<<< Updated upstream
 
+=======
+    light();
+>>>>>>> Stashed changes
 
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jay/Desktop/IS F311/Assignment2
+# Install script for directory: /home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jay/Desktop/IS F311/Assignment2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

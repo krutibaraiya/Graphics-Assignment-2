@@ -3,7 +3,7 @@ project(Assignment2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Assignment2 dining-room.cpp Camera.cpp Camera.h Color.h)
+add_executable(Assignment2 dining-room.cpp Camera.cpp Camera.h Color.h Parser.cpp Parser.h)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 find_package(OpenGL REQUIRED)

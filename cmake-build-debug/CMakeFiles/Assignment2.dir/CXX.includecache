@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jay/Desktop/IS F311/Assignment2/Camera.h
+/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Camera.h
 GL/glew.h
 -
 GL/freeglut.h
@@ -20,13 +20,23 @@ glm/glm.hpp
 iostream
 -
 Color.h
-/home/jay/Desktop/IS F311/Assignment2/Color.h
+/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Color.h
 glm/gtc/constants.hpp
 -
 
-/home/jay/Desktop/IS F311/Assignment2/Color.h
+/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Color.h
 
-/home/jay/Desktop/IS F311/Assignment2/dining-room.cpp
+/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Parser.h
+iostream
+-
+fstream
+-
+vector
+-
+tuple
+-
+
+/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/dining-room.cpp
 GL/glew.h
 -
 GL/freeglut.h
@@ -37,10 +47,10 @@ GL/glu.h
 -
 glm/glm.hpp
 -
-iostream
--
 Color.h
-/home/jay/Desktop/IS F311/Assignment2/Color.h
+/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Color.h
 Camera.h
-/home/jay/Desktop/IS F311/Assignment2/Camera.h
+/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Camera.h
+Parser.h
+/home/kruti/Desktop/Graphics_A2/Graphics-Assignment-2/Parser.h
 

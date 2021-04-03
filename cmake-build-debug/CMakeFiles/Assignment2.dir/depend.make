@@ -5,7 +5,11 @@ CMakeFiles/Assignment2.dir/Camera.cpp.o: ../Camera.cpp
 CMakeFiles/Assignment2.dir/Camera.cpp.o: ../Camera.h
 CMakeFiles/Assignment2.dir/Camera.cpp.o: ../Color.h
 
+CMakeFiles/Assignment2.dir/Parser.cpp.o: ../Parser.cpp
+CMakeFiles/Assignment2.dir/Parser.cpp.o: ../Parser.h
+
 CMakeFiles/Assignment2.dir/dining-room.cpp.o: ../Camera.h
 CMakeFiles/Assignment2.dir/dining-room.cpp.o: ../Color.h
+CMakeFiles/Assignment2.dir/dining-room.cpp.o: ../Parser.h
 CMakeFiles/Assignment2.dir/dining-room.cpp.o: ../dining-room.cpp
 
