@@ -1,0 +1,85 @@
+\hypertarget{class_model}{}\doxysection{Model Class Reference}
+\label{class_model}\index{Model@{Model}}
+
+
+Class that loads texture-\/less models from .obj files.  
+
+
+
+
+{\ttfamily \#include $<$Parser.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_model_adeb47f2876d87f818824b4fc7113724b}{Model}} (string objfile, string mtlfile)
+\begin{DoxyCompactList}\small\item\em Parameterized constructor for class \mbox{\hyperlink{class_model}{Model}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_model_ac7b168fc3a84f9ac2b558d1019869ca7}{draw}} ()
+\begin{DoxyCompactList}\small\item\em Draws the model in open\+GL space. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_model_add2ee7b539516372a29f775846c2a986}\label{class_model_add2ee7b539516372a29f775846c2a986}} 
+vector$<$ tuple$<$ float, float, float $>$ $>$ {\bfseries vertices}
+\item 
+\mbox{\Hypertarget{class_model_a8f56801caf46d314982e628234843450}\label{class_model_a8f56801caf46d314982e628234843450}} 
+vector$<$ tuple$<$ float, float, float $>$ $>$ {\bfseries colors}
+\item 
+\mbox{\Hypertarget{class_model_a0cad312852ac4e0eba79cff3f6f31b9c}\label{class_model_a0cad312852ac4e0eba79cff3f6f31b9c}} 
+vector$<$ tuple$<$ float, float, float $>$ $>$ {\bfseries normals}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class that loads texture-\/less models from .obj files. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em objfile} & The path to the .obj file \\
+\hline
+{\em mtlfile} & The path to the .mtl file \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_model_adeb47f2876d87f818824b4fc7113724b}\label{class_model_adeb47f2876d87f818824b4fc7113724b}} 
+\index{Model@{Model}!Model@{Model}}
+\index{Model@{Model}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{Model()}{Model()}}
+{\footnotesize\ttfamily Model\+::\+Model (\begin{DoxyParamCaption}\item[{string}]{objfile,  }\item[{string}]{mtlfile }\end{DoxyParamCaption})}
+
+
+
+Parameterized constructor for class \mbox{\hyperlink{class_model}{Model}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em objfile} & path for .obj file of model \\
+\hline
+{\em mtlfile} & path for .mtl file of model \\
+\hline
+\end{DoxyParams}
+creating material to color map
+
+making the vertices, normals and faces list
+
+finally storing all faces as triangles, colors and normals
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_model_ac7b168fc3a84f9ac2b558d1019869ca7}\label{class_model_ac7b168fc3a84f9ac2b558d1019869ca7}} 
+\index{Model@{Model}!draw@{draw}}
+\index{draw@{draw}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Model\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draws the model in open\+GL space. 
+
+Method implemented to draw the objects loaded from blender. drawing each triangle separately
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Parser.\+h\item 
+Parser.\+cpp\end{DoxyCompactItemize}
