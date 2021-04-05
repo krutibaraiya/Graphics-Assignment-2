@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Scene</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">OpenGL 3D</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+     <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+     <a class="nav-item nav-link" href="objects.html">Objects</a>
+     <a class="nav-item nav-link" href="scene.html">Views</a>
+     <a class="nav-item nav-link" href="desc.html">Description</a>
+
+    </div>
+  </div>
+</nav>
+    <div class="outer">
+
+    <h3 style="text-align: center">3D Dining Room</h3>
+    <br>
+
+    <div class="intro" style="text-align: center">
+        <h4 style="text-align: center"> OpenGL implementation of a dining room</h4>
+        
+
+    </div>
+
+    <div class = "specifications">
+        <p>The project is tested on Linux and built with:</p>
+        <ul>
+            <li>GL</li>
+            <li>GLUT</li>
+            <li>GLEW</li>
+            <li>GLM</li>
+            <li>CMake</li>
+            <li>Blender</li>
+        </ul>
+        <p> <u>To build:</u>  g++ *.cpp *.h -lGL -lglut -lGLU &nbsp &nbsp &nbsp &nbsp &nbsp<u>To run:</u> ./a.out</p>
+        <!-- <p><u>To run:</u> ./a.out</p> -->
+    </div>
+
+    <div class = "camera-mov">
+        <p><u>Camera Movements:</u></p>
+        
+        <ul>
+            <li>W,S,A,D,↑,↓ keys to move the camera front, back, left, right, up and down respectively</li>
+            <li>[ to roll anticlockwise </li>
+            <li>] to roll clockwise</li>
+            <li>R to reset the camera</li>
+            <li>Left click and drag mouse to pan around</li>
+            <li>Scroll mouse to zoom</li>
+            <li>Q to quit</li>
+        </ul>
+    
+    </div>
+
+    <div class = "issues">
+        <p><u>Issues faced:</u></p>
+        <ul>
+            <li>Problems faced while parsing obj files from Blender to load models in our scene.</li>
+            <li>Lag in camera movements while rendering.</li>
+            <li>Jaggedness in Glut objects. </li>
+            <li>Flickering of scene during camera movements.</li>
+            <li>Choosing an appropriate lighting model for the scene.</li>
+            
+        </ul>
+    </div>
+    
+
+    
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
