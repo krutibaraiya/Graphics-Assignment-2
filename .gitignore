@@ -1,0 +1,7 @@
+cmake-build-*
+CMakeCache.txt
+
+*.out
+*.exe
+
+*.gch
